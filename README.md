@@ -4,9 +4,9 @@
 
 ![The actual Signal Desk workbench after checking public sources](assets/workbench.png)
 
-An original Mona’s Media research workbench: public repository facts → snapshot comparison → human context → source-attached briefing.
+Check updates from three public GitHub repositories, compare saved snapshots, and export a briefing with your notes and source links. Built by Mona’s Media.
 
-Start with the clearly labeled fictional fixture. Refresh reads public metadata and latest releases for Postiz, Ghost, and n8n from GitHub’s API without credentials. Complete source checks replace the snapshot atomically. Errors retain the previous work. Stars are popularity context, not ROI or sales evidence.
+Start with the clearly labeled fictional fixture. Refresh reads public metadata and latest releases for Postiz, Ghost, and n8n from GitHub’s API without credentials. The snapshot updates only after all three source checks succeed. A failed check leaves your previous work intact. Stars are popularity context, not ROI or sales evidence.
 
 Write a human note and review the source. Export a ZIP containing Markdown, JSON, and instructions. Save JSON before reloading; paste a saved snapshot to compare with a later live check. Imports reset review and remain unverified until refreshed. Undo restores the last replaced snapshot.
 
